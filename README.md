@@ -1,4 +1,4 @@
 PGP-Production
 ==============
 
-This is the production level code for our project.
+This is the development level code for our project.

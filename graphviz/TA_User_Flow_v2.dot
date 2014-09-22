@@ -1,0 +1,16 @@
+digraph TA_User_Flow{
+    a [label="TA/Teacher", shape=box];
+    b [label="Landing Page"];
+    c [label="Login"];
+    d [label="Create New TA/Teacher Account"];
+    e [label="New Account Confirmation Screen"];
+    f [label="Home"];
+    g [label="Class Selection"]
+    h [label="Create New PDP"];
+    i [label="View Student Self-Assessment"];
+    j [label="New PGP Confirmation Screen"];
+
+    a -> b -> c -> f -> g  -> h -> j;
+    b -> d -> e -> f;
+    g -> i;
+  }

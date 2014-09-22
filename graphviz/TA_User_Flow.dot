@@ -1,0 +1,6 @@
+digraph {
+    Teacher_or_TA [shape=box];
+    Teacher_or_TA -> Create_a_profile -> Profile_Creation -> Home -> PDP_Creation_App -> Confirmation_Screen;
+    Teacher_or_TA -> Login -> Home;
+    Home -> View_Student_PDP;
+  }

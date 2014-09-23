@@ -1,0 +1,15 @@
+digraph Student_User_Flow{
+    a [label="Student", shape=box];
+    b [label="Landing Page"];
+    c [label="Login"];
+    d [label="Create New Student Account"];
+    e [label="New Account Confirmation Screen"];
+    f [label="Home"];
+    g [label="New Student Self-Assessment"];
+    h [label="View PGP"];
+    i [label="New Survey Confirmation Screen"];
+
+    a -> b -> c -> f -> g  -> i;
+    b -> d -> e -> f;
+    f -> h;
+  }

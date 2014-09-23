@@ -12,13 +12,14 @@
         <link rel="stylesheet" type="text/css" href="css/base.css"></link>
         <link rel="stylesheet" type="text/css" href="css/header.css"></link>
         <link rel="stylesheet" type="text/css" href="css/nav.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/newPGP.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/footer.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/new_pgp_layout.css"></link>
     </head>
     <body>
       <header class="header">
         <img class="header-logo" src="img/logo_wText2.png" alt="logo"></img>
-
         <h1 class="header-h1">Create Personal Growth Plan</h1>
-
         <nav class="nav">
           <ul class="nav_ul">
             <li class="nav_ul-li">
@@ -32,50 +33,48 @@
       </header>
 
       <article class="newPGP">
-        <h1>Personalized Plan for [Student Name]</h1>
         <form class="newPGP_form">
-            <fieldset class="newPGP_form-stdntinfo">
-              <select class="newPGP_form-dd" name="student_nm">
-                <option value="Ben">Ben</option>
-                <option value="Victoria">Victoria</option>
-              </select>
-              <label class="newPGP_form-course">Course:</label>
-                <input type="text" value="UX Bootcamp" readonly></input>
-            </fieldset>
+          <fieldset class="newPGP_form-stdntinfo">
 
+            <label class="newPGP_form-stdnt h1">Personalized Plan for:</label>
+            <select class="newPGP_form-dd" name="student_nm">
+              <option class="newPGP_form-dd" value="Ben">Ben</option>
+              <option class="newPGP_form-dd" value="Victoria">Victoria</option>
+            </select>
 
+            <label class="newPGP_form-course h1">Course:</label>
+            <label class="newPGP_form-stucourse">UX Bootcamp</label>
+          </fieldset>
 
-
-        <fieldset class="newPGP_form-sbj-wrap">
+          <fieldset class="newPGP_form-sbj-wrap">
             <div class="newPGP_form-sbj">
-              <label class="newPGP_form-sbj-lbl">HTML</label>
-              <label class="newPGP_form-sbj-rec">Mozilla Development Network</label>
+                <label class="newPGP_form-sbj-lbl">HTML</label>
+                <label class="newPGP_form-sbj-reclbl">Your recommendation:</label>
+                <label class="newPGP_form-sbj-rec">Mozilla Development Network</label>
+                <textarea class="newPGP_form-sbj-cmt"></textarea>
+            </div>
+
+            <div class="newPGP_form-sbj">
+              <label class="newPGP_form-sbj-lbl">CSS</label>
+              <label class="newPGP_form-sbj-reclbl">Your recommendation:</label>
+              <label class="newPGP_form-sbj-rec">CSS Tricks</label>
               <textarea class="newPGP_form-sbj-cmt"></textarea>
-          </div>
+            </div>
 
+            <div class="newPGP_form-sbj">
+              <label class="newPGP_form-sbj-lbl">Javascript</label>
+              <label class="newPGP_form-sbj-reclbl">Your recommendation:</label>
+              <label class="newPGP_form-sbj-rec">A Better Way To Learn Javascript</label>
+              <textarea class="newPGP_form-sbj-cmt"></textarea>
+            </div>
 
-          <div class="newPGP_form-sbj">
-            <label class="newPGP_form-sbj-lbl">CSS</label>
-            <label class="newPGP_form-sbj-rec">CSS Tricks</label>
-            <textarea class="newPGP_form-sbj-cmt"></textarea>
-        </div>
+            <div class="newPGP_form-sbj">
+              <label class="newPGP_form-sbj-lbl">Notes:</label>
+              <textarea class="newPGP_form-sbj-cmt"></textarea>
+            </div>
+          </fieldset>
 
-        <div class="newPGP_form-sbj">
-          <label class="newPGP_form-sbj-lbl">Javascript</label>
-          <label class="newPGP_form-sbj-rec">A Better Way To Learn Javascript</label>
-          <textarea class="newPGP_form-sbj-cmt"></textarea>
-        </div>
-
-         <div class="newPGP_form-sbj">
-          <label class="newPGP_form-sbj-lbl">Notes:</label>
-          <textarea class="newPGP_form-sbj-cmt"></textarea>
-        </div>
-
-      </fieldset>
-
-      <input type="submit" class="newPGP_form-btn"></input>
-
-
+          <input type="submit" class="newPGP_form-btn"></input>
 
         </form>
       </article>

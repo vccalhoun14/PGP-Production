@@ -1,22 +1,19 @@
 .nav_ul {
   text-align: center;
-  font-family: "Droid Serif", sans-serif;
-  font-size: 1.6rem;
 }
 
 .nav_ul-li {
-  font-family: "Droid Serif", sans-serif;
   display: inline-block;
   padding: 1rem;
 }
 
 .nav_ul-li-a {
-  font-family: "Droid Serif", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.6rem;
   text-decoration: none;
-  color: #d03226;
+  color: #fff;
 }
 
-
-.nav_ul-li-a:selected, .nav_ul-li-a:hover {
+.nav_ul-li-a:active, .nav_ul-li-a:hover {
   color: #d03226;
 }

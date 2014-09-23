@@ -31,26 +31,54 @@
         </nav>
       </header>
 
-      <h1>[Student's Current Course] Personalized Plan for [Student Name]</h1>
-      <p>We’ve loved having you in the course and are excited about helping you reach your goals below is a personalized plan to continue to mature your knowledge and practice of the basics of computer science and web development.</p>
-
-      <h1>Your Goal:</h1>
-      <p>To get into Dev Accelerator</p>
-
-      <h1>Based on your work and self-assessment we recommend you:</h1>
-      <p>Advance to: [Recommended Next Course (Pull from student survey?)]
-
-      <p>[Student’s Topic of Study Concepts]</p>
-
-      <p>Basic: [Recommended Topics populated from TA form submission]</p>
-
-      <p>Intermediate: [Recommended Topics populated from TA form submission]</p>
-
-      <p>Advanced: [Recommended Topics populated from TA form submission]</p>
-
-      <p>Notes: [Personalized message populated from TA form submission]</p>
+      <article class="newPGP">
+        <h1>Personalized Plan for [Student Name]</h1>
+        <form class="newPGP_form">
+            <fieldset class="newPGP_form-stdntinfo">
+              <select class="newPGP_form-dd" name="student_nm">
+                <option value="Ben">Ben</option>
+                <option value="Victoria">Victoria</option>
+              </select>
+              <label class="newPGP_form-course">Course:</label>
+                <input type="text" value="UX Bootcamp" readonly></input>
+            </fieldset>
 
 
+
+
+        <fieldset class="newPGP_form-sbj-wrap">
+            <div class="newPGP_form-sbj">
+              <label class="newPGP_form-sbj-lbl">HTML</label>
+              <label class="newPGP_form-sbj-rec">Mozilla Development Network</label>
+              <textarea class="newPGP_form-sbj-cmt"></textarea>
+          </div>
+
+
+          <div class="newPGP_form-sbj">
+            <label class="newPGP_form-sbj-lbl">CSS</label>
+            <label class="newPGP_form-sbj-rec">CSS Tricks</label>
+            <textarea class="newPGP_form-sbj-cmt"></textarea>
+        </div>
+
+        <div class="newPGP_form-sbj">
+          <label class="newPGP_form-sbj-lbl">Javascript</label>
+          <label class="newPGP_form-sbj-rec">A Better Way To Learn Javascript</label>
+          <textarea class="newPGP_form-sbj-cmt"></textarea>
+        </div>
+
+         <div class="newPGP_form-sbj">
+          <label class="newPGP_form-sbj-lbl">Notes:</label>
+          <textarea class="newPGP_form-sbj-cmt"></textarea>
+        </div>
+
+      </fieldset>
+
+      <input type="submit" class="newPGP_form-btn"></input>
+
+
+
+        </form>
+      </article>
 
 
 

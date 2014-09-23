@@ -1,0 +1,6 @@
+digraph {
+    Student [shape=box];
+    Student -> Create_a_profile -> Profile_Creation -> Home -> Student_Survey -> Confirmation_Screen;
+    Student -> Login -> Home;
+    Home -> View_PDP;
+  }
